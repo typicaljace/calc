@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    width: 1500px;
+    display: flex;
+}
+
+head{
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    color: azure;
+    text-align: center;
+    background-color: black;
+    width: 100px;
+    
+}
+
+
+
+p{
+    background-color: black;
+    width: 400px;
+}
+
+
+    
+.navigation{
+    background-image: url(stadium.jpeg);
+    text-align: justify;
+    width: 900px;
+    color: white;
+    float: right;
+    
+    
+}
+
+.navigation form{
+    width: 300px;
+    align-items: center;
+
+}
+
+.navigation table{
+    background-color: black;
+    text-align: center;
+    
+}
+
+h4{
+    background-color: black;
+    text-align: center;
+}
+
+li{
+    text-align: justify;
+}
+
+.container2{
+    background-color:black;
+    height: 400px;
+    color: white;
+    width: 900px;
+    float: right;
+    margin: 60px;
+    justify-content: space-between;
+}
+
+h3{
+    color: red;
+}
+
+.container{
+    width: 1000px;
+    margin: 120px;
+    height: 900px;
+    color: white;
+    float: left;
+
+

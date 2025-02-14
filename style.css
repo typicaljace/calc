@@ -1,0 +1,56 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #436e7a;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: #180100;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 3.5rem;
+    height: 3rem;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0.2); 
+    background: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin: 0.6rem;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1.5rem 0;
+}
+
+form .display input{
+    text-align: right; 
+    flex: 1;
+    font-size: 2.5rem;
+    box-shadow: none;
+    padding: 1rem;
+    background-color: rgb(97, 231, 138);
+    height: 5rem;
+}
+
+
+form input.equal{
+background: rgb(204,64, 64);
+width: 9rem;
+}
+    
