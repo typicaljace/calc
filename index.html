@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic_Tac_Toe</title>
-    <link rel="stylesheet" href="style3.0.css">
-</head>
-<body>
-    <div class="turn-container">
-        <h3>Turn For</h3>
-        <div class="turn-box align">X</div>
-        <div class="turn-box align">O</div>
-        <div class="bg"></div>
-    </div>
-    <div class="main-grid">
-        <div class="box align">0</div>
-        <div class="box align">1</div>
-        <div class="box align">2</div>
-        <div class="box align">3</div>
-        <div class="box align">4</div>
-        <div class="box align">5</div>
-        <div class="box align">6</div>
-        <div class="box align">7</div>
-        <div class="box align">8</div>
-    </div>
-    <h2 id="results"></h2>
-    <button id="play-again">Play Again</button>
-    <script src="script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initialize"
+    <title><h1>calculator</h1></title>
+    <p><i>created by jace</i></p>
+    <img src="/home/mongo/Desktop/jace/jace.jpeg" width="50" height="50">
+    <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator">
+                <form action="">
+                    <!--display section-->
+                    <div class="display">
+                        <input type="text" name="display">
+                    </div>
+
+                    <!--buttons-->
+                    <div>
+                        <input type="button" value="AC"onclick="display.value = ''">
+                        <input type="button" value="DEL"onclick="display.value = display.value.toString().slice(0, -1)">
+                        <input type="button" value="."onclick="display.value += '.'">
+                        <input type="button" value="/"onclick="display.value += '/'">
+                    </div>
+                    <div>
+                        <input type="button" value="7"onclick="display.value += '7'">
+                        <input type="button" value="8"onclick="display.value += '8'">
+                        <input type="button" value="9"onclick="display.value += '9'">
+                        <input type="button" value="*"onclick="display.value += '*'">
+                    </div>
+                    <div>
+                        <input type="button" value="4"onclick="display.value += '4'">
+                        <input type="button" value="5"onclick="display.value += '5'">
+                        <input type="button" value="6"onclick="display.value += '6'">
+                        <input type="button" value="-"onclick="display.value += '-'">
+                    </div>
+                    <div>
+                        <input type="button" value="1"onclick="display.value += '1'">
+                        <input type="button" value="2"onclick="display.value += '2'">
+                        <input type="button" value="3"onclick="display.value += '3'">
+                        <input type="button" value="+"onclick="display.value += '+'">
+                    </div>
+                    <div>
+                        <input type="button" value="00"onclick="display.value += '00'">
+                        <input type="button" value="0"onclick="display.value += '0'">
+                        <input type="button" value="="class="equal"onclick="display.value = eval(display.value)">
+                        
+                    </div>
+                
+                    </form>
+            </div>
+        </div>
+    </body>
 </html>
